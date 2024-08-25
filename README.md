@@ -24,3 +24,4 @@ Calls Not Answered = CALCULATE(COUNT(Sheet1[Call Id]),FILTER(Sheet1,Sheet1[Answe
 Not Resolved = CALCULATE(COUNT(Sheet1[Topic]),FILTER(Sheet1,Sheet1[Resolved]="N"))
 Resolved Calls = CALCULATE(COUNT(Sheet1[Call Id]),FILTER(Sheet1,Sheet1[Resolved]="Y"))
 Total = COUNT(Sheet1[Call Id])
+![Screenshot (12)](https://github.com/user-attachments/assets/ce88574c-b95f-4386-a40a-dbe07bf96132)
